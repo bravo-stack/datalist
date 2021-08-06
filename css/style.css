@@ -1,3 +1,25 @@
+
 h1 {
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: blueviolet;
+    margin: -10px ;
+    padding: 25px;
+    border: 5px solid blueviolet;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    border-radius: 15px;
+}
+  
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+    border-radius: 15px;
 }
