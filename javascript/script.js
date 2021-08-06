@@ -4,6 +4,7 @@ function startProgress(){
     if(i < 100){
         i = i + 1;
         progressBar.value = i;
+        progressBar.textContent = i
         progressBar.getElementsByTagName("span")[0].textContent = i;
         console.log(i);
     }
