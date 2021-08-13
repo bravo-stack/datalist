@@ -17,19 +17,21 @@
                 <small>subscribe to our youtube channel</small>
             </div>
             <div class="sect2">
+                
+                <!--The Form tag isn't included on purpose-->
                 <div class="reg-container">
-                    <h2 class="reg-text"><b>Register</b></h2>
+                    <h2 class="regtext"><b>Register</b></h2>
                     
-                    <input type="email" name="" id="" placeholder="enter email address">
+                    <input type="email" required name="" id="" placeholder="enter email address">
                     <br>
                     
-                    <input type="number" name="" id="" placeholder="enter mobile number">
+                    <input type="number" required name="" id="" placeholder="enter mobile number">
                     <br>
                     
-                    <input type="date" name="" id="" >
+                    <input type="date" name="" required id="" >
                     <br>
 
-                    <input type="text" list="subjects" placeholder="select subject">
+                    <input type="text" required list="subjects" placeholder="select subject">
                     <datalist id="subjects">
                         <option value="English"></option>
                         <option value="Math"></option>
@@ -41,15 +43,22 @@
                     </datalist>
                     <br>
 
-                    <input type="password" name="" id="" placeholder="enter a new password">
+                    <input type="password" required name="" id="" placeholder="enter a new password">
                     <br>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" class="submit" value="Register">
 
 
                 </div>
+
+                <!--The Form tag isn't included on purpose-->
                 <div class="log-container">
-                    <h2 class="log-text"><b>Login</b></h2>
+                    <h2 class="logtext">Login</h2>
+                    <input type="email" required name="" id="" placeholder="enter your email address">
+                    <br>
+                    <input type="password" required name="" id="" placeholder="enter your password">
+                    <br>
+                    <input type="submit" class="submit" value="Login">
                 </div>
             </div>
         </div> 
